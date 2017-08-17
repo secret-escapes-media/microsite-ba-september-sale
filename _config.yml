@@ -1,7 +1,7 @@
 # Site settings
 title: British Airways Sale
 description: >
-  Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+  British Airways are holding a sale that will see you jet-setting around the world in no time. Take advantage of these incredible discounted flights to some of the world’s most exclusive travel destinations.
 baseurl: "/britishairwayssale" # the subpath of your site, e.g. /blog/
 url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
 
@@ -9,4 +9,4 @@ url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
 markdown: kramdown
 exclude: [node_modules, gulpfile.js, package.json, bower_components, bower.json, README.md, npm-debug.log]
 
-campaign-link: 
+campaign-link: https://ad.doubleclick.net/ddm/clk/281431668;200931936;h?http://www.britishairways.com/en-gb/offers/sale?DM1_Channel=TS&DM1_Campaign=UKI_GB_EN_Secretescapes_JulySale17landingpage&DM1_Site=Secretescapes&utm_source=Secretescapes&utm_medium=Partners&utm_campaign=UKI_GB_EN_Secretescapes_JulySale17landingpage&utm_term=SR

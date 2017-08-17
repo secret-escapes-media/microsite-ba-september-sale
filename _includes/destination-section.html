@@ -1,26 +1,43 @@
-<section class="section--padding-xxlarge destination" id="{{section.class}}" style="background-image:url({{site.baseurl}}/img/bg/{{section.class}}.jpg);">
-  <div class="row">
+<section class="section--padding-large destination {% cycle '', 'bg--partner-light-grey' %}" id="{{section.class}}">
 
+  <div class="row row--padding destination__title align-center">
+    <h2 class="title title--larger title--upper title--bold title--color">{{ section.title }}</h2>
+  </div>
 
+  <div class="row row--columns-7-5 {% cycle '', 'row--columns-reverse' %}">
 
-    <div class="row__column destination__content">
-      <h2 class="destination__title title title--large title--bold title--color">{{ section.title }}</h2>
-      {{ section.content }}
+    <div class="destination__images row__column">
 
+      <div class="bg-image bg-image--ratio bg-image--ratio-16-9 bg-image--xxlarge--ratio-16-9" style="background-image:url('{{ site.baseurl }}/img/content/overview/{{ section.class }}.jpg');"></div>
 
-      <hr>
-      <h2 class="title title--smaller title--bold title--color">Getting there</h2>
-      <!-- Main offer -->
-      <hr>
-      <h4 class="title title--tiny title--upper title--bold">{{ section.offer-title }}</h4>
-      <p>
-        From <span class="p--lead p--bolder">{{ section.price }}</span> {{ section.price-description }}<br>
-        {{ section.travel-details }}
-      </p>
+      <div class="row row--padding destination__images-small">
+        <div class="destination__image bg-image bg-image--ratio bg-image--ratio-3-4" style="background-image:url('{{ site.baseurl }}/img/content/overview/{{ section.class }}-2.jpg');"></div>
+        <div class="destination__image bg-image bg-image--ratio bg-image--ratio-16-9 bg-image--xxlarge--ratio-4-3" style="background-image:url('{{ site.baseurl }}/img/content/overview/{{ section.class }}-3.jpg');"></div>
+      </div>
 
     </div>
 
+    <div class="destination__content row__column row--padding">
 
+      {{ section.content }}
+
+      {% for offer in section.offers %}
+      <a href="{{ site.campaign-link }}" class="card card--link" id="tracking-offer-{{ offer.title | slugify }}">
+        <div class="card__title">
+          <h2 class="title title--micro">{{ offer.title }}</h2>
+        </div>
+        <div class="card__content">
+          <p class="title title--upper">From <span class="title--bold title--color">£{{ offer.price }}</span> {{ offer.price-description }}*</p>
+          <p>{{ offer.content }}</p>
+        </div>
+        <div class="card__link">
+          <img src="{{site.baseurl}}/img/icons/card-arrow.png" width="30" alt="">
+        </div>
+      </a>
+      {% endfor %}
+
+    </div>
 
   </div>
+
 </section>

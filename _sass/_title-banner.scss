@@ -53,12 +53,17 @@
 
   &__title {
     margin-top: 15px;
-    font-size: 4em;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    line-height: 1;
-    font-family: $title-font-family;
+    font-family: $display-font-family;
+    line-height: 0.7;
+    font-size: 13em;
+    @include max-bp(large){
+      font-size: 6em;
+    }
+  }
+  &__suptitle, &__subtitle {
+    @include max-bp(large){
+      font-size: 1.3em;
+    }
   }
 
   &__overlay {

@@ -172,22 +172,91 @@ body { background-color: $white; }
 }
 
 .destination {
-  @include background-attributes();
-
   &__title {
-    line-height: 1;
+    margin-bottom: 3em;
+    position: relative;
+    z-index: $z-content-upper;
+    text-align: left;
+    @include bp(large){
+      text-align: center;
+      margin-bottom: -2em;
+      text-shadow: 0 0 20px $partner-light-grey;
+    }
   }
 
   &__content {
-    width: 50%;
     padding-top: 1em;
     position: relative;
     z-index: $z-content-upper;
-    @include bp(large){
-      padding-top: 1em;
+  }
+
+
+
+
+  @mixin image-grid( $col1, $col2, $has-gutters: null ) {
+    .destination__image {
+      @if $has-gutters {
+        @include span( $gutters $col1 );
+      } @else {
+        @include span( $col1 );
+      }
     }
-    .destination:nth-child(odd) & {
-      float: right;
+    .destination__image:nth-child( even ) {
+      @if $has-gutters {
+        @include span( $gutters last $col2 );
+      } @else {
+         @include span( last $col2 );
+      }
+    }
+  }
+
+  &__images {
+    margin-top: -2em;
+    padding: 0 1em;
+    position: relative;
+    &-small {
+      display: none;
+    }
+  }
+
+  @include bp(medium){
+    &__images {
+      margin-top: -3em;
+      padding: 0 2em;
+    }
+  }
+
+  @include bp(large){
+    &__images {
+      position: relative;
+      z-index: $z-content;
+      margin-top: -5em;
+      padding: 0 2.5em 0 1em;
+      &-small {
+        display: block;
+        margin-top: -3em;
+        margin-right: -4em;
+        & .bg-image--ratio-3-4 { display: none;}
+      }
+    }
+  }
+
+  @include bp(xlarge){
+    &__images {
+      margin-top: -3em;
+    }
+  }
+
+  @include bp(xxlarge){
+    &__images {
+      padding: 0 1.5em;
+      &-small {
+        margin-top: -1.5em;
+        margin-left: -3.5em;
+        margin-right: -3.5em;
+        @include image-grid( 5, 7, gutters );
+        & .bg-image--ratio-3-4 { display: block; margin-top: -2.5em; }
+      }
     }
   }
 
