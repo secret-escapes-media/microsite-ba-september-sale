@@ -145,12 +145,6 @@ section,.section {
   }
 
   // vertical align floated columns
-  .row--columns-vertical-align {
-    display: flex;
-    align-items: center;
-  }
-
-  // vertical align floated columns
   .row--columns-reverse {
     display: -webkit-flex;
     -webkit-flex-direction: row-reverse;
@@ -158,6 +152,12 @@ section,.section {
     flex-direction: row-reverse;
     align-items:flex-start;
     align-content:flex-start;
+  }
+
+  // vertical align floated columns
+  .row--columns-vertical-align {
+    display: flex;
+    align-items: center;
   }
 
 }

@@ -52,18 +52,9 @@
   }
 
   &__title {
-    margin-top: 15px;
-    font-family: $display-font-family;
-    line-height: 0.7;
-    font-size: 13em;
-    @include max-bp(large){
-      font-size: 6em;
-    }
   }
   &__suptitle, &__subtitle {
-    @include max-bp(large){
-      font-size: 1.3em;
-    }
+    margin-top: 0.66em;
   }
 
   &__overlay {

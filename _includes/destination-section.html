@@ -1,33 +1,33 @@
-<section class="section--padding-large destination {% cycle '', 'bg--partner-light-grey' %}" id="{{section.class}}">
+<section class="section--padding destination" id="{{destination.class}}">
 
-  <div class="row row--padding destination__title align-center">
-    <h2 class="title title--larger title--upper title--bold title--color">{{ section.title }}</h2>
-  </div>
-
-  <div class="row row--columns-7-5 {% cycle '', 'row--columns-reverse' %}">
+  <div class="row--thin row--columns-7-5 row--columns-vertical-align {% cycle '', 'row--columns-reverse' %}">
 
     <div class="destination__images row__column">
 
-      <div class="bg-image bg-image--ratio bg-image--ratio-16-9 bg-image--xxlarge--ratio-16-9" style="background-image:url('{{ site.baseurl }}/img/content/overview/{{ section.class }}.jpg');"></div>
+      <div class="destination__image bg-image bg-image--ratio bg-image--ratio-16-9 bg-image--xxlarge--ratio-16-9" style="background-image:url('{{ site.baseurl }}/img/content/{{ destination.class }}-1.jpg');"></div>
 
       <div class="row row--padding destination__images-small">
-        <div class="destination__image bg-image bg-image--ratio bg-image--ratio-3-4" style="background-image:url('{{ site.baseurl }}/img/content/overview/{{ section.class }}-2.jpg');"></div>
-        <div class="destination__image bg-image bg-image--ratio bg-image--ratio-16-9 bg-image--xxlarge--ratio-4-3" style="background-image:url('{{ site.baseurl }}/img/content/overview/{{ section.class }}-3.jpg');"></div>
+        <div class="destination__image bg-image bg-image--ratio bg-image--ratio-3-4" style="background-image:url('{{ site.baseurl }}/img/content/{{ destination.class }}-2.jpg');"></div>
+        <div class="destination__image bg-image bg-image--ratio bg-image--ratio-16-9 bg-image--xxlarge--ratio-4-3" style="background-image:url('{{ site.baseurl }}/img/content/{{ destination.class }}-3.jpg');"></div>
       </div>
 
     </div>
 
     <div class="destination__content row__column row--padding">
 
-      {{ section.content }}
+      <h2 class="title title--medium title--bold">{{ destination.title }}</h2>
 
-      {% for offer in section.offers %}
+      <hr class="hr--left hr--margin-small">
+
+      {{ destination.content }}
+
+      {% for offer in destination.offers %}
       <a href="{{ site.campaign-link }}" class="card card--link" id="tracking-offer-{{ offer.title | slugify }}">
         <div class="card__title">
           <h2 class="title title--micro">{{ offer.title }}</h2>
         </div>
         <div class="card__content">
-          <p class="title title--upper">From <span class="title--bold title--color">£{{ offer.price }}</span> {{ offer.price-description }}*</p>
+          <p class="title title--upper title--margin-small">From <span class="title--bold title--color">£{{ offer.price }}</span> {{ offer.price-description }}*</p>
           <p>{{ offer.content }}</p>
         </div>
         <div class="card__link">

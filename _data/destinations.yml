@@ -1,94 +1,146 @@
 
 
-  - title: Europe
-    class: europe
+  - category: florida
+    title: Florida
+    destinations:
+
+      - title: Miami
+        class: miami
+        content: >
+          <p class="p--lead">An art deco metropolis that remains firmly at the forward edge of fashion and urban cool. </p>
+          <p>Posing on the golden sands of South Beach, getting lost in coveted bars and dining in exclusive restaurants is all part of the Miami experience. Diverse in its offerings, head to Wynwood for hipster scenes packed with indie design and businesses, for a creative burst to juxtapose the contemporary, sleek downtown scene. </p>
+        offers:
+          - title: Flights from Heathrow
+            content: Selected dates 1 Nov 17 - 30 Nov 17
+            price: XXXX
+            price-description: per person
+
+      - title: Orlando
+        class: orlando
+        content: >
+          <p class="p--lead">Orlando is all about the thrills. World renowned theme parks make the city an adventure land for young and old.</p>
+          <p>Away from Universal Pictures and Disneyland, Orlando offers a vibrant cultural scene, where the arts thrive in a network of theatres, galleries and museums. Nature preserves and gardens provide respite from the theme park crowds and excellent restaurants are waiting to be found. </p>
+        offers:
+          - title: Flights from Gatwick
+            content: Selected dates 1 Nov 17 - 30 Nov 17
+            price: XXXX
+            price-description: per person
+
+      - title: Fort Lauderdale
+        class: fort-lauderdale
+        content: >
+          <p class="p--lead">A millionaire’s playground where yachts line unique waterways packed with restaurants, bars and shopping.</p>
+          <p>Fort Lauderdale is a waterside marvel, with a series of waterways navigating this opulent metropolis. A historic waterfront merges with sleek modernity, only a short stretch from buzzing Miami. Glorious beaches and jazz festivals tussle for your attention in the balmy Florida sunshine.</p>
+        offers:
+          - title: Flights from Gatwick
+            content: Selected dates 1 Nov 17 - 30 Nov 17
+            price: XXXX
+            price-description: per person
+
+
+
+
+  - category: california
+    title: California
+    destinations:
+
+      - title: Los Angeles
+        class: los-angeles
+        content: >
+          <p class="p--lead">An icon the world over, Los Angeles draws travellers with its alluring glitz, glamour and fame. </p>
+          <p>This dazzling urban metropolis needs little introduction; the home of Hollywood glamour juxtaposed by incredible urban hikes and underground art and music scenes. Immerse yourself in this cinematic powerhouse, where creativity thrives in a city of vast diversity and sprawling, rippling excitement. </p>
+        offers:
+          - title: Flights from Heathrow
+            content: Selected dates 1 Nov 17 - 30 Nov 17
+            price: XXXX
+            price-description: per person
+
+      - title: San Francisco
+        class: san-francisco
+        content: >
+          <p class="p--lead">San Francisco is a hotbed of creativity, a cultural kaleidoscope that has fostered everything from the beat generation to counter culture. </p>
+          <p>A bucket-list destination of dizzying heights, where resplendent Victorian homes perch precariously on steep slopes, San Francisco is a culturally charged city. The home of counterculture offers a vast variety of experiences, characterised by generations of innovation and social revolution.</p>
+        offers:
+          - title: Flights from Heathrow
+            content: Selected dates 1 Nov 17 - 30 Nov 17
+            price: XXXX
+            price-description: per person
+
+      - title: Oakland
+        class: oakland
+        content: >
+          <p class="p--lead">Creative urban cool resides in Oakland, rivalling San Francisco across the bay.</p>
+          <p>With a burgeoning creative scene characterised by art trails, indie boutique shopping, a delectable street food scene and a famous urban wine trail, Oakland is a firm Cali favourite. Just across the bay lies San Francisco, making Oakland a perfect place to stay when exploring this dynamic area.</p>
+        offers:
+          - title: Flights from Gatwick
+            content: Selected dates 1 Nov 17 - 30 Nov 17
+            price: XXXX
+            price-description: per person
+
+      - title: San Jose
+        class: san-jose
+        content: >
+          <p class="p--lead">The home of Silicon Valley and the gateway to California.</p>
+          <p>San Jose is a historic and diverse city just south of San Francisco. Its Silicon Valley accolades make it a thoroughly modern stop-off where everyone wears google glass – probably. Head out to Napa Valley or Yosemite, for glorious countryside.</p>
+        offers:
+          - title: Flights from Heathrow
+            content: Selected dates 1 Nov 17 - 30 Nov 17
+            price: XXXX
+            price-description: per person
+
+
+
+
+  - category: new-york
+    title: New York
+    destinations:
+
+      - title: New York City
+        class: new-york-city
+        content: >
+          <p class="p--lead">A skyline recognised the world over, New York is an enviable destination for a city break.</p>
+          <p>Packed with unique pockets of creativity governed by a rich mix of waves of immigration, New York is a melangerie of enticing exploits. From renowned galleries to superlative shopping, iconic photo-ops and classic street food, New York tops any savvy traveller’s bucket-list.</p>
+        offers:
+          - title: Flights from Gatwick or Heathrow
+            content: Selected dates 1 Nov 17 - 30 Nov 17
+            price: XXXX
+            price-description: per person
+
+
+
+
+  - category: nevada
+    title: Nevada
+    destinations:
+
+      - title: Las Vegas
+        class: las-vegas
+        content: >
+          <p class="p--lead">An icon of neon, excess and excitement – Las Vegas is a playground of fortune, fame and spectacle.</p>
+          <p>A glittering marvel that has always defied convention, this desert metropolis is awash with luxury hotels, renowned restaurants, and its trademark dose of gambling. Entertainment lies at the heart of the Vegas draw, with more big name, big money productions than you could ever hope to catch in one trip. Let the glitz and glamour wash over you, for a truly memorable, all-American experience. </p>
+        offers:
+          - title: Flights from Gatwick or Heathrow
+            content: Selected dates 1 Nov 17 - 30 Nov 17
+            price: XXXX
+            price-description: per person
+
+
+
+
+  - category: oman
+    title: Oman
     content: >
-      <p class="p--lead">Nowhere else in the world can you find such a diverse cultural mix as in Europe – millennia of history and fierce nation identities, pack your itinerary with Europe’s iconic delights.</p>
-      <p>Discover foodie delights in Tuscany, effortless romance in Paris, or see an urban landscape pierced by centuries-old history in Athens – Europe is a joy for any intrepid culture seekers.</p>
-    offers:
-      - title: 2 night European City Breaks
-        content: Selected dates 1 Nov 17 - 30 Nov 17
-        price: 99
-        price-description: per person
-      - title: 7 night European Beach Holidays
-        content: Selected dates 1 Oct 17 – 19 Oct 17
-        price: 179
-        price-description: per person
+      <p class="p--lead">As mystical as it is modern, Oman drives a delicate and modest balance between an ancient past and an enlightened modernity enshrined by its championship of Arab culture.</p>
+      <p>Natural and cultural riches await any explorer of this Arabian jewel. From harsh and jutting mountains that sink into dramatic valleys and swept deserts, to beguiling cities that have foregone the ostentatious skyscraper calamity of their Arab neighbours, Oman is an inspired destination fit for a sultan. </p>
+    destinations:
 
-
-
-  - title: Dubai
-    class: dubai
-    content: >
-      <p class="p--lead">A palace of modernity sprung from a seemingly uninhabitable desert, Dubai is a grand statement to wealth and opulence in the UAE.</p>
-      <p>Towering glass megastructures, endless luxury and the largest shopping mall in the world, Dubai is a city of unashamed excess. Hop from beach party to rooftop cocktail bar, head to the desert and live like a bedouin, or indulge yourself in spas, boutiques and only the finest things.   </p>
-    offers:
-      - title: Flights to Dubai
-        content: Selected dates 20 Aug 17 - 23 Mar 18
-        price: 379
-        price-description: return
-      - title: 3 night Dubai holidays
-        content: Selected dates 11 Sep 17 - 26 Sep 17
-        price: 409
-        price-description: per person
-
-
-
-  - title: Barbados
-    class: barbados
-    content: >
-      <p class="p--lead">A Caribbean starlet, throw yourself into the heady rum-soaked saunter of Barbados – where spouge and calypso lay a soundtrack to this island paradise.</p>
-      <p>A joyous people, Bajans are set to show you how to kick-back on glorious beaches and prop up rum bars whilst tucking into flying fish and cou-cou. Swim with turtles or catch a wave at the Soup Bowl, before dancing under the moonlight with locals in Bridgetown. </p>
-    offers:
-      - title: 7 night Caribbean Holidays
-        content: Selected dates 1 Sep 18 - 30 Oct 18
-        price: 499
-        price-description: per person
-
-
-
-  - title: California
-    class: california
-    content: >
-      <p class="p--lead">The sunshine state is a hotbed of verdant National Parks, urban jungles, desert scapes and a vibrant medley of cultural exploits.</p>
-      <p>Explore the cultural fervour of San Francisco, where the Beat scene uttered stark tales of mid-century life and a colourful LGBT scene thrived after years of dedication. Head to the iconic hotbed of cinema dreams in the glamour of Los Angeles, or simply catch some waves, a burrito and craft beer in San Diego...  </p>
-    offers:
-      - title: Flights to California
-        content: Selected dates 1 Sept 17 - 26 May 18
-        price: 378
-        price-description: return
-      - title: 7 day Fly-Drives
-        content: Selected dates 1 Nov 17 - 14 Dec 17
-        price: 429
-        price-description: per person
-
-
-
-  - title: New York
-    class: new-york
-    content: >
-      <p class="p--lead">A skyline recognised the world over, New York is an enviable destination for a city break.</p>
-      <p>Packed with unique pockets of creativity governed by a rich mix of waves of immigration, New York is a melangerie of enticing exploits. From renowned galleries to superlative shopping, iconic photo-ops and classic street food, New York tops any savvy traveller’s bucket-list.</p>
-    offers:
-      - title: Flights to New York
-        content: Selected dates 1 Sept 17 - 26 May 18
-        price: 379
-        price-description: return
-      - title: 3 night New York Holidays
-        content: Selected dates 5 Jan 18 - 31 Jan 18
-        price: 479
-        price-description: per person
-
-
-
-  - title: Florida
-    class: florida
-    content: >
-      <p class="p--lead">A vast peninsula of swamps, metropolises and golden beaches, Florida is a well-established sun-seeker’s hotspot. </p>
-      <p>Whether it’s kayaking through untamed swamplands where alligators prowl, or immersing yourself in the art-scene and art deco wonders of Miami, Florida is a diverse state packed with enviable attractions. Thrills extend from outdoor adventures to world-class theme parks, all framed by endless sunshine and gorgeous beaches.</p>
-    offers:
-      - title: 7 night Florida Holidays
-        content: Selected dates 5 Jan 18 – 31 Jan 18
-        price: 449
-        price-description: per person
-
+      - title: Muscat
+        class: muscat
+        content: >
+          <p class="p--lead">The gleaming white of Muscat is pierced by dazzling minarets and golden domes, and at street level a kaleidoscope of colour fills the souqs and bazaars that echo an ancient trade in frankincense. </p>
+          <p>It remains a resplendent city that retains a picture of towering minarets, glowing domes, and medieval walls. Yet it is also thoroughly modern, with contemporary bars and restaurants offering the finest the Gulf has to offer. Explore Muttrah and Ruwi, a hit for nightlife and daytime wanderings amongst Portuguese forts and mystical mosques. Muscat remains a jewel studded on the enchanting Arabian peninsula.   </p>
+        offers:
+          - title: Flights from Heathrow
+            content: Selected dates 1 Nov 17 - 30 Nov 17
+            price: XXXX
+            price-description: per person

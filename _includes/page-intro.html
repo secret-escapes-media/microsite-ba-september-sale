@@ -1,30 +1,24 @@
 
 {% assign destinations = site.data.destinations %}
-<div class="intro {% if destinations.size > 0 %}has-nav{% endif %}">
-
-  {% if destinations.size > 0 %}
-  <!-- SITE NAV -->
-  <section class="intro__nav section--padding-none align-center site-nav">
-    <div class="row row--padding">
-      <ul class="site-nav__list">
-        {% for section in destinations %}<li class="site-nav__item site-nav__item--{{ section.title | slugify }}{% if section.class == page.class %} is-current{% endif %}"><a class="site-nav__link" href="{{ site.baseurl }}/#{{section.class}}">{{section.title}}</a></li>{% endfor %}
-      </ul>
-    </div><!-- END - .row -->
-  </section><!-- END - .site-nav -->
-  {% endif %}
+<div class="intro">
 
   <section class="intro__content">
-    <div class="row row--padding row--columns-3-9-gutters row--columns-vertical-align">
-
-      <div class="row__column">
-        <img src="{{site.baseurl}}/img/content/sale-globe.png" alt="">
-      </div>
-
-      <div class="row__column">
-        {{ page.intro }}
-      </div>
-
+    <div class="row row--padding align-center">
+      {{ page.intro }}
     </div>
+
+    {% if destinations.size > 0 %}
+    <div class="row align-center site-nav">
+      {% for category in destinations %}
+      {% for destination in category.destinations %}
+      <span class="site-nav__item">
+        <a class="site-nav__link" href="{{ site.baseurl }}/#{{destination.class}}">{{destination.title}}</a>
+      </span>
+      {% endfor %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
   </section>
 
 </div>
