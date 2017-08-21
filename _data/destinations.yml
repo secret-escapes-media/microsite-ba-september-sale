@@ -131,7 +131,7 @@
     title: Oman
     content: >
       <p class="p--lead">As mystical as it is modern, Oman drives a delicate and modest balance between an ancient past and an enlightened modernity enshrined by its championship of Arab culture.</p>
-      <p>Natural and cultural riches await any explorer of this Arabian jewel. From harsh and jutting mountains that sink into dramatic valleys and swept deserts, to beguiling cities that have foregone the ostentatious skyscraper calamity of their Arab neighbours, Oman is an inspired destination fit for a sultan. </p>
+      <p class="p--lead">Natural and cultural riches await any explorer of this Arabian jewel. From harsh and jutting mountains that sink into dramatic valleys and swept deserts, to beguiling cities that have foregone the ostentatious skyscraper calamity of their Arab neighbours, Oman is an inspired destination fit for a sultan. </p>
     destinations:
 
       - title: Muscat
