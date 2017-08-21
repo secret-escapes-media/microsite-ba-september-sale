@@ -8,7 +8,7 @@
 $core-font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 $main-font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 $title-font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
-$display-font-family: 'Alfa Slab One', 'Helvetica Neue', sans-serif;
+$display-font-family: 'Zilla Slab Highlight', 'Helvetica Neue', sans-serif;
 
 
 html { font-size: 62.5%; }
@@ -90,7 +90,7 @@ input, textarea, keygen, select, button {
     &--smallest     { font-size: 1.75em; }
   }
   @include bp(xxlarge){
-    &--largest     { font-size: 8em; }
+    &--largest     { font-size: 6.3em; }
     &--larger      { font-size: 5.2em; }
     &--large       { font-size: 4.4em; }
     &--medium      { font-size: 3.233em; }
@@ -100,7 +100,7 @@ input, textarea, keygen, select, button {
   }
 
   // STYLISTIC
-  &--display { font-family: $display-font-family; }
+  &--display { font-family: $display-font-family; letter-spacing: 0;}
   &--color { color: $partner-secondary; }
 
   &--lined {
