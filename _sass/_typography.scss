@@ -33,7 +33,6 @@ input, textarea, keygen, select, button {
   line-height: 1;
   font-family: $title-font-family;
   + * { margin-top: 1.5em; }
-
   &--spacing {
     * + & { margin-top: 15px; }
   }
@@ -134,6 +133,7 @@ input, textarea, keygen, select, button {
   &--lead { }
   &--large { font-size: 1.05em; }
   &--small { font-size: .9em; }
+  &--title-color { color: $text-heading; }
 
   &--light     { font-weight: 300; }
   &--bold      { font-weight: 600; }
@@ -280,7 +280,7 @@ a {
 
   &--small { font-size: 0.85em; padding: .4em 2em; }
   @include bp(large){
-    &--large { font-size: 1em; padding: .7em 3em; }
+    &--large { font-weight: 700; padding: .75em 3em .65em; }
   }
 
   &--subtle {

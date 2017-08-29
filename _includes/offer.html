@@ -1,0 +1,33 @@
+
+{% if offer.type == "holiday" %}
+
+<a href="{{ site.campaign-link }}" class="card card--link" id="tracking-holiday-offer-{{ offer.title | slugify }}">
+  <div class="card__title">
+    <h2 class="title title--micro">{{ offer.title }}</h2>
+    <span class="p--small p--bold p--upper p--title-color">{{ offer.detail }}</span>
+  </div>
+  <div class="card__content">
+    <p class="title title--margin-small">From <span class="title--bold title--color">£{{ offer.price }}</span> {{ offer.price-description }}*</p>
+    <p class="p--small">{{ offer.dates }}</p>
+  </div>
+  <div class="card__link">
+    <img src="{{site.baseurl}}/img/icons/card-arrow.png" width="30" alt="">
+  </div>
+</a>
+
+{% else %}
+
+<a href="{{ site.campaign-link }}" class="card card--link" id="tracking-flight-offer-{{ offer.title | slugify }}">
+  <div class="card__title">
+    <h2 class="title title--micro">{{ offer.title }}</h2>
+  </div>
+  <div class="card__content">
+    <p class="title title--margin-small">Return from <span class="title--bold title--color">£{{ offer.price }}</span> {{ offer.price-description }}*</p>
+    <p class="p--small">{{ offer.dates }}</p>
+  </div>
+  <div class="card__link">
+    <img src="{{site.baseurl}}/img/icons/card-arrow.png" width="30" alt="">
+  </div>
+</a>
+
+{% endif %}

@@ -10,7 +10,7 @@
   &:first-child { margin-top: 2em; }
   &:not(:last-child){ margin-bottom: 1em; }
   @include bp(large){
-    &:not(:last-child){ margin-bottom: 2em; }
+    &:not(:last-child){ margin-bottom: 1em; }
   }
 
   &__image { }
@@ -24,7 +24,7 @@
   }
   &__content {
     padding: 0.66em 1em;
-    border-top: 1px solid $light-grey;
+    border-top: 1px solid rgba($black,0.1);
     .card--small & { padding: 0.66em; }
     @include bp(large){
       padding: 1em 1.5em;

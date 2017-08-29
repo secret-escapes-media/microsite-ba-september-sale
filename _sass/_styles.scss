@@ -148,6 +148,7 @@ body { background-color: $white; }
   }
 
   &__image {
+    background-color: $white;
     @include bp(xlarge){
       border: 7px solid white;
     }

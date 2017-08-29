@@ -22,18 +22,7 @@
       {{ destination.content }}
 
       {% for offer in destination.offers %}
-      <a href="{{ site.campaign-link }}" class="card card--link" id="tracking-offer-{{ offer.title | slugify }}">
-        <div class="card__title">
-          <h2 class="title title--micro">{{ offer.title }}</h2>
-        </div>
-        <div class="card__content">
-          <p class="title title--upper title--margin-small">From <span class="title--bold title--color">£{{ offer.price }}</span> {{ offer.price-description }}*</p>
-          <p>{{ offer.content }}</p>
-        </div>
-        <div class="card__link">
-          <img src="{{site.baseurl}}/img/icons/card-arrow.png" width="30" alt="">
-        </div>
-      </a>
+        {% include offer.html %}
       {% endfor %}
 
     </div>
