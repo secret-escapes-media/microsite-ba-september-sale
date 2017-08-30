@@ -30,10 +30,10 @@
         class: orlando
         content: >
           <p class="p--lead">Orlando is all about the thrills. World renowned theme parks make the city an adventure land for young and old.</p>
-          <p>Away from Universal Pictures and Disneyland, Orlando offers a vibrant cultural scene, where the arts thrive in a network of theatres, galleries and museums. Nature preserves and gardens provide respite from the theme park crowds and excellent restaurants are waiting to be found. </p>
+          <p>Away from Universal Studios and Walt Disney World, Orlando offers a vibrant cultural scene, where the arts thrive in a network of theatres, galleries and museums. Nature preserves and gardens provide respite from the theme park crowds and excellent restaurants are waiting to be found. </p>
         offers:
 
-          - title: 3 night holiday with flights
+          - title: 7 night holiday with flights
             type: holiday
             detail: Ramada Hotel Gateway
             dates: Departing Gatwick. Travel between 01 Jan 2018 and 08 Feb 2018
