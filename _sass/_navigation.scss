@@ -61,7 +61,7 @@ $site-nav-height: 70px;
     @include bp(small){
       &--center{ width: auto; }
     };
-    @include bp( medium ){
+    @include bp( large ){
       &--right {
         right: 0;
         display: block;

@@ -57,7 +57,7 @@ input, textarea, keygen, select, button {
   &--italic    { font-style: italic; }
 
   &--largest {
-    font-size: 4.3em;
+    font-size: 3.6em;
   }
   &--larger      { font-size: 2.8em; }
   &--large       { font-size: 2.25em; }
@@ -68,6 +68,7 @@ input, textarea, keygen, select, button {
   &--tiny        { font-size: 1.44em; line-height: 1.2; }
   &--micro       { font-size: 1.1em; line-height: 1.2; }
   @include bp(medium){
+    &--largest     { font-size: 4.3em; }
     &--larger      { font-size: 4em; }
     &--large       { font-size: 3em; }
     &--medium      { font-size: 2.4em; }

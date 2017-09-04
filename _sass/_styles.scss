@@ -66,12 +66,16 @@ body { background-color: $white; }
   }
   &__link {
     display: inline-block;
-    padding: 0.5em 2em;
-    font-size: 0.9em;
+    padding: 0.4em 1.5em;
+    font-size: 0.85em;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     &:hover { text-decoration: none; }
+    @include bp(large){
+      padding: 0.5em 2em;
+      font-size: 0.9em;
+    }
   }
 }
 

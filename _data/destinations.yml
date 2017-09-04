@@ -10,6 +10,14 @@
           <p class="p--lead">A millionaire’s playground where yachts line unique waterways packed with restaurants, bars and shopping.</p>
           <p>Fort Lauderdale is a waterside marvel, with a series of waterways navigating this opulent metropolis. A historic waterfront merges with sleek modernity, only a short stretch from buzzing Miami. Glorious beaches and jazz festivals tussle for your attention in the balmy Florida sunshine.</p>
         offers:
+
+          - title: 7 days fly and drive
+            type: holiday
+            detail: Economy car hire
+            dates: 01 Jan 2018 and 20 Feb 2018
+            price: 449
+            price-description: per person
+
           - title: Flights from Gatwick
             dates: 26 Oct 2017 to 09 Dec 2017, 08 Jan 2018 to 05 Feb 2018, 19 Feb 2018 to 19 Mar 2018
             price: 378
@@ -40,11 +48,6 @@
             price: 449
             price-description: per person
 
-          - title: Flights from Gatwick
-            dates: 08 Jan 2018 to 04 Feb 2018, 12 Feb 2018 to 18 Mar 2018
-            price: 455
-            price-description: per person
-
 
 
 
@@ -59,7 +62,7 @@
           <p>With a burgeoning creative scene characterised by art trails, indie boutique shopping, a delectable street food scene and a famous urban wine trail, Oakland is a firm Cali favourite. Just across the bay lies San Francisco, making Oakland a perfect place to stay when exploring this dynamic area.</p>
         offers:
 
-          - title: 7 night fly and drive
+          - title: 7 day fly and drive
             type: holiday
             detail: Economy car hire
             dates: Departing Gatwick. Travel between 01 Jan 2018 and 31 Jan 2018
@@ -149,11 +152,6 @@
             detail: Circus Circus Hotel
             dates: Departing Heathrow or Gatwick. Travel between 15 Jan 2018 and 25 Mar 2018
             price: 499
-            price-description: per person
-
-          - title: Flights from Heathrow
-            dates: 12 Feb 2018 to 18 Mar 2018
-            price: 568
             price-description: per person
 
 
