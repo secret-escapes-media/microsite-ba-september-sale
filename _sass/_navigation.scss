@@ -330,5 +330,11 @@ $icon-size: 27px;
   }
   p { margin-top: .5em; }
   .logo--secret-escapes { max-width: 110px; }
-  .logo--partner { max-width: 150px; }
+  .logo--partner {
+    max-width: 150px;
+    margin-top: 1em;
+    @include bp(medium){
+      margin-top: 0;
+    }
+  }
 }

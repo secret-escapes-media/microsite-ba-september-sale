@@ -14,14 +14,15 @@
           - title: 7 days fly and drive
             type: holiday
             detail: Economy car hire
-            dates: 01 Jan 2018 and 20 Feb 2018
+            dates: 1 Jan 2018 and 20 Feb 2018
             price: 449
             price-description: per person
 
           - title: Flights from Gatwick
-            dates: 26 Oct 2017 to 09 Dec 2017, 08 Jan 2018 to 05 Feb 2018, 19 Feb 2018 to 19 Mar 2018
+            dates: 26 Oct 2017 to 9 Dec 2017, 8 Jan 2018 to 5 Feb 2018, 19 Feb 2018 to 19 Mar 2018
             price: 378
             price-description: per person
+
 
       - title: Miami
         class: miami
@@ -29,10 +30,19 @@
           <p class="p--lead">An art deco metropolis that remains firmly at the forward edge of fashion and urban cool. </p>
           <p>Posing on the golden sands of South Beach, getting lost in coveted bars and dining in exclusive restaurants is all part of the Miami experience. Diverse in its offerings, head to Wynwood for hipster scenes packed with indie design and businesses, for a creative burst to juxtapose the contemporary, sleek downtown scene. </p>
         offers:
+
+          - title: 5 night holidays with flights
+            type: holiday
+            detail: Collins Hotel
+            dates: Departing Heathrow. Travel between 1 Jan 2018 and 31 Jan 2018
+            price: 649
+            price-description: per person
+
           - title: Flights from Heathrow
-            dates: 08 Jan 2018 to 23 Mar 2018
+            dates: 8 Jan 2018 to 23 Mar 2018
             price: 409
             price-description: per person
+
 
       - title: Orlando
         class: orlando
@@ -41,10 +51,10 @@
           <p>Away from Universal Studios and Walt Disney World, Orlando offers a vibrant cultural scene, where the arts thrive in a network of theatres, galleries and museums. Nature preserves and gardens provide respite from the theme park crowds and excellent restaurants are waiting to be found. </p>
         offers:
 
-          - title: 7 night holiday with flights
+          - title: 7 night holidays with flights
             type: holiday
             detail: Ramada Hotel Gateway
-            dates: Departing Gatwick. Travel between 01 Jan 2018 and 08 Feb 2018
+            dates: Departing Gatwick. Travel between 1 Jan 2018 and 8 Feb 2018
             price: 449
             price-description: per person
 
@@ -65,14 +75,15 @@
           - title: 7 day fly and drive
             type: holiday
             detail: Economy car hire
-            dates: Departing Gatwick. Travel between 01 Jan 2018 and 31 Jan 2018
+            dates: Departing Gatwick. Travel between 1 Jan 2018 and 31 Jan 2018
             price: 399
             price-description: per person
 
           - title: Flights from Gatwick
-            dates: 09 Oct 2017 to 13 Dec 2017, 08 Jan 2018 to 25 Mar 2018, 23 Apr 2018 to 20 May 2018
+            dates: 9 Oct 2017 to 13 Dec 2017, 8 Jan 2018 to 25 Mar 2018, 23 Apr 2018 to 20 May 2018
             price: 378
             price-description: per person
+
 
       - title: Los Angeles
         class: los-angeles
@@ -80,10 +91,19 @@
           <p class="p--lead">An icon the world over, Los Angeles draws travellers with its alluring glitz, glamour and fame. </p>
           <p>This dazzling urban metropolis needs little introduction; the home of Hollywood glamour juxtaposed by incredible urban hikes and underground art and music scenes. Immerse yourself in this cinematic powerhouse, where creativity thrives in a city of vast diversity and sprawling, rippling excitement. </p>
         offers:
+
+          - title: 5 night holidays with flights
+            type: holiday
+            detail: Knotts Berry Farm Hotel
+            dates: Departing Heathrow. Travel between 1 Jan 2018 to 31 Jan 2018
+            price: 569
+            price-description: per person
+
           - title: Flights from Heathrow
             dates: 29 Oct 2017 to 12 Dec 2017, 14 Jan 2018 to 23 Mar 2018
             price: 405
             price-description: per person
+
 
       - title: San Francisco
         class: san-francisco
@@ -91,10 +111,19 @@
           <p class="p--lead">San Francisco is a hotbed of creativity, a cultural kaleidoscope that has fostered everything from the beat generation to counter culture. </p>
           <p>A bucket-list destination of dizzying heights, where resplendent Victorian homes perch precariously on steep slopes, San Francisco is a culturally charged city. The home of counterculture offers a vast variety of experiences, characterised by generations of innovation and social revolution.</p>
         offers:
+
+          - title: 5 night holidays with flights
+            type: holiday
+            detail: Whitcomb Hotel
+            dates: Departing Heathrow. Travel between 11 Jan 2018 to 28 Feb 2018
+            price: 699
+            price-description: per person
+
           - title: Flights from Heathrow
-            dates: 06 Nov 2017 to 19 Nov 2017, 08 Jan 2018 to 23 Mar2018
+            dates: 6 Nov 2017 to 19 Nov 2017, 8 Jan 2018 to 23 Mar 2018
             price: 528
             price-description: per person
+
 
       - title: San Diego
         class: san-diego
@@ -102,8 +131,9 @@
           <p class="p--lead">This southernmost city on the long Pacific shore is an esteemed beach haven for surfers and hipsters alike. </p>
           <p>Year round sunshine, charming bistros and cafés, long beaches and great surfing – and not to mention the craft beer capital of America, with 125 breweries making it the ‘Capital of Craft’ – San Diego is a hip US destination known as Cali’s beach escape, with a buzzing city to match. </p>
         offers:
+
           - title: Flights from Heathrow
-            dates: 09 Nov 2017 to 10 Dec 2017, 15 Jan 2018 to 23 Mar 2018
+            dates: 9 Nov 2017 to 10 Dec 2017, 15 Jan 2018 to 23 Mar 2018
             price: 600
             price-description: per person
 
@@ -124,12 +154,12 @@
           - title: 3 night holiday with flights
             type: holiday
             detail: The Gallivant Times Square
-            dates: Departing Heathrow or Gatwick. Travel between 07 Jan 2018 and 31 Jan 2018
+            dates: Departing Heathrow or Gatwick. Travel between 7 Jan 2018 and 31 Jan 2018
             price: 469
             price-description: per person
 
           - title: Flights from Heathrow
-            dates: 29 Oct 2017 to 02 Dec 2017, 14 Jan 2018 to 23 Mar 2018
+            dates: 29 Oct 2017 to 2 Dec 2017, 14 Jan 2018 to 23 Mar 2018
             price: 398
             price-description: per person
 
@@ -170,7 +200,15 @@
           <p class="p--lead">The gleaming white of Muscat is pierced by dazzling minarets and golden domes, and at street level a kaleidoscope of colour fills the souqs and bazaars that echo an ancient trade in frankincense. </p>
           <p>It remains a resplendent city that retains a picture of towering minarets, glowing domes, and medieval walls. Yet it is also thoroughly modern, with contemporary bars and restaurants offering the finest the Gulf has to offer. Explore Muttrah and Ruwi, a hit for nightlife and daytime wanderings amongst Portuguese forts and mystical mosques. Muscat remains a jewel studded on the enchanting Arabian peninsula.   </p>
         offers:
+
+          - title: 3 night holidays with flights
+            type: holiday
+            detail: Shangri-La Al Waha Hotel
+            dates: Departing Heathrow. Travel between 1 May 2018 and 31 May 2018
+            price: 469
+            price-description: per person
+
           - title: Flights from Heathrow
-            dates: 18 Sep 2017 to 15 Oct 2017, 06 Nov 2017 to 10 Dec 2017, 26 Dec 2017 to 04 Feb 2018
+            dates: 18 Sep 2017 to 15 Oct 2017, 6 Nov 2017 to 10 Dec 2017, 26 Dec 2017 to 4 Feb 2018
             price: 299
             price-description: per person
